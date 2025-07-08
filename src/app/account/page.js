@@ -5,7 +5,7 @@ import { useAuth } from '../../context/AuthContext';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import toast from 'react-hot-toast';
-
+import Link from 'next/link';
 const AccountPage = () => {
   const { user } = useAuth();
   const [userDetails, setUserDetails] = useState(null);

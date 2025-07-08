@@ -103,7 +103,7 @@ const AuthForm = ({ type }) => {
             </p>
           ) : (
             <p>
-              Don't have an account?{' '}
+              Dont have an account?{' '}
               <Link href="/signup" className="font-medium text-green-600 hover:text-green-500">
                 Sign up
               </Link>

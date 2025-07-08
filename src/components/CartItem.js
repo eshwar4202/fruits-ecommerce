@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import { FiTrash2 } from 'react-icons/fi';
 
 const CartItem = ({ item, onUpdateQuantity, onRemove }) => {

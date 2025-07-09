@@ -48,7 +48,7 @@ const DashboardPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col bg-white">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8">
           <div className="animate-pulse space-y-6">

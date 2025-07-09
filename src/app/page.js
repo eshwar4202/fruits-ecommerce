@@ -4,12 +4,12 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-black">
       <Header />
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 py-8 bg-white">
         <section className="text-center py-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Fresh Fruits Delivered to Your Door</h1>
-          <p className="text-xl text-gray-600 mb-8">Premium quality fruits sourced directly from local farms</p>
+          <h1 className="text-4xl font-bold text-gray-100 mb-4 z-10" style={{ color: 'white' }}>Fresh Fruits Delivered to Your Door</h1>
+          <p className="text-xl text-gray-100 mb-8">Premium quality fruits sourced directly from local farms</p>
           <Link href="/products" className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
             Shop Now
           </Link>
